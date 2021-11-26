@@ -19,4 +19,4 @@ It is based on the `rubocop-daemon-wrapper` script but tailored to not explode w
 
 ## License
 
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+MIT
