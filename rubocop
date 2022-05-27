@@ -7,7 +7,7 @@ INITIAL_WORKING_DIRECTORY=$(pwd)
 # This line changes to current working directory to where the .sh file is.
 cd "$(dirname "$0")"
 
-DAEMON_LOCATION=$(asdf which rubocop-daemon)
+DAEMON_LOCATION=$(bundle info rubocop-daemon --path)
 
 # Go back to where we were
 cd $INITIAL_WORKING_DIRECTORY
